@@ -2,10 +2,10 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import Stats from 'three/addons/libs/stats.module.js';
 import gui from 'three/addons/libs/lil-gui.module.min.js';
-import model from './demo/cube.js';
+import model from '../../../飞鸟/src/demo/cube.js';
 // import point from './sprite.js';
 import { Clock } from 'three';
-import bird from './demo/bird-1.js';
+import bird from '../../../飞鸟/src/demo/bird-1.js';
 import { render } from 'lit';
 
 let camera, scene, renderer, stats;

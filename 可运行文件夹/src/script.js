@@ -1,8 +1,5 @@
-// Clear color for GPURenderPassDescriptor
-const clearColor = { r: 0.0, g: 0.5, b: 1.0, a: 1.0 };
 
-// Vertex data for triangle
-// Each vertex has 8 values representing position and color: X Y Z W R G B A
+const clearColor = { r: 0.0, g: 0.5, b: 1.0, a: 1.0 };
 
 const vertices = new Float32Array([
   0.0,  0.6, 0, 1, 1, 0, 0, 1,
